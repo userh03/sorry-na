@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="css/index.css">
+  <title>Sorry na</title>
+  <style>
+    body{
+      background-color: lightcoral;
+      text-align: center;
+      
+    }
+    img{
+      height: 100%;
+      width: 100%;
+      border-radius: 20px;
+    }
+    p{
+      text-align: justify;
+    }
+    button{
+      padding: 20px;
+      border-radius: 10px;
+    }
+    button:hover{
+      background-color: lightblue;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+    <div class="container">
+      <h1>Mahal please sorry na</h1>
+      <img src="https://media.tenor.com/6_VV3hhzvbgAAAAd/soriowo-owo.gif">
+      <p>
+        Please mahal ko hindi ko kaya na ganito tayo,patawrin mo ko sa mga nasabi ko kagabi mahal, alam mo naman na sobrang mahal na mahal po kita at sayo lang po talaga ako😭, wag napo tayo mag away please mahal,sorry na please 😭
+     </p>
+     <button type="submit" id="myBtn">Oo na okay na tayo</button>
+     <button type="submit" id="noo">Bleee ayaw ko</button>
+     <h1>Mahal na mahal kita, ayusin na natin ito mahal please 😭</h1>
+     <img src="https://media.tenor.com/RD-BXcI_XmoAAAAC/friends.gif">
+   </div>
+</body>
+<script type="text/javascript">
+  const element = document.getElementById("myBtn");
+  element.addEventListener("click", myFunction);
+
+function myFunction() {
+  document.body.innerHTML="";
+  document.body.style.backgroundColor="lightblue";
+  const para = document.createElement("h1");
+  para.innerText = "Thank you so much mahal ko for loving mee huhhuuh, mas mahal na mahal po kita sobra sobra at alam ko naman po na ramdam mo na super love love po kita 🥺❤️😭";
+  document.body.appendChild(para);
+  
+  const para2 = document.createElement("p");
+  para2.innerText = "Sorry po talaga mahal, let's bati napo and love each other na po ulit unconditionally😢❤️Iloveyouu mahaal ko";
+  document.body.appendChild(para2);
+}
+
+ const element2 = document.getElementById("noo");
+  element2.addEventListener("click", nope);
+  
+function nope() {
+  alert("Bakit hindi mahal, please wag napo natin patagalin ung away natin mahal");
+  alert("Sorry napo mahal ko please,Mahal na mahal po kita super T_T");
+  alert("Yes kana please mahal😭");
+}
+</script>
+</html>
